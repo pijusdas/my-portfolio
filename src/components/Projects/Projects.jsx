@@ -14,7 +14,7 @@ const Projects = () => {
       }, [])
 
     return (
-        <div className='project'>
+        <div id='project' className='project'>
             <h1 className=" text-center font-bold text-4xl my-20 text-[#42a7eb]">Projects</h1>
             <hr className='bg-[#42a7eb] h-1 ' />
 

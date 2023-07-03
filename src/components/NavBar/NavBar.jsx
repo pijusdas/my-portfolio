@@ -64,6 +64,9 @@ const NavBar = () => {
                             <a href="#skills">Skills</a>
                         </li>
                         <li className="text-white hover:text-sky-600">
+                            <a href="#project">Projetcs</a>
+                        </li>
+                        <li className="text-white hover:text-sky-600">
                             <a href="#aboutme">About Me</a>
                         </li>
                         <li className="text-white hover:text-sky-600">
