@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 const AbotMe = () => {
     useEffect(() => {
         AOS.init();
-      }, [])
+    }, [])
 
     return (
         <div id='aboutme' className='mt-24'>
@@ -18,14 +18,14 @@ const AbotMe = () => {
                 <div data-aos="fade-up"
                     data-aos-anchor-placement="center-bottom">
                     <p className=' text-lg'>
-                        My name is ABU SAID. Im a web designer and developer based in Dhaka, Bangladesh.
+                        My name is PIJUS DAS. Im a web designer and developer based in Dhaka, Bangladesh.
 
                         I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.
                     </p>
                 </div>
-                <div  data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500" className='h-96 w-96'>
+                <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" className='h-96 w-96'>
                     <Lottie loop={true} animationData={aboutmelottie}></Lottie>
                 </div>
             </div>
