@@ -2,7 +2,17 @@ import Lottie from "lottie-react";
 import contactss from '../../assets/lottie/contact.json'
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
+
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -25,7 +35,7 @@ const Contact = () => {
                 <div className=" h-[400px] w-[400px]">
                     <Lottie loop={true} animationData={contactss}></Lottie>
                 </div>
-                <div className="">
+                <div  data-aos="fade-down-left" className="">
                     <div className="">
                         <form className=" flex flex-col gap-5" ref={form} onSubmit={sendEmail}>
                             <label>Name</label>

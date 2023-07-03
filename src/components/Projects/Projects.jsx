@@ -1,16 +1,27 @@
 import project1 from '../../assets/projects/Screenshot (218).png'
 import project2 from '../../assets/projects/Screenshot (219).png'
 import project3 from '../../assets/projects/Screenshot (47).png'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
+
+
 const Projects = () => {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     return (
         <div className='project'>
             <h1 className=" text-center font-bold text-4xl my-20 text-[#42a7eb]">Projects</h1>
             <hr className='bg-[#42a7eb] h-1 ' />
 
-            <div className=" mt-10">
+            <div  className=" mt-10">
                 <div className="flex min-h-screen items-center justify-center ">
                     <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                        <div data-aos="fade-right" className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                             <div className="h-96 w-72">
                                 <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={project1} alt="" />
                             </div>
@@ -26,7 +37,8 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+
+                        <div data-aos="fade-up" className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                             <div className="h-96 w-72">
                                 <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={project2} alt="" />
                             </div>
@@ -43,7 +55,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                        <div data-aos="fade-left" className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                             <div className="h-96 w-72">
                                 <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={project3} alt="" />
                             </div>
