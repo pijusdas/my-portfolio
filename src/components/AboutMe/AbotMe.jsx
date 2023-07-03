@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 
 const AbotMe = () => {
     return (
-        <div className='mt-24'>
+        <div id='aboutme' className='mt-24'>
             <h1 className=" text-center font-bold text-4xl my-20 text-[#42a7eb]">Who Am I</h1>
            <hr className='bg-[#42a7eb] h-1 ' />
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>

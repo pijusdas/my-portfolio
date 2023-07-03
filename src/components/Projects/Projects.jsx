@@ -3,7 +3,7 @@ import project2 from '../../assets/projects/Screenshot (219).png'
 import project3 from '../../assets/projects/Screenshot (47).png'
 const Projects = () => {
     return (
-        <div>
+        <div className='project'>
             <h1 className=" text-center font-bold text-4xl my-20 text-[#42a7eb]">Projects</h1>
             <hr className='bg-[#42a7eb] h-1 ' />
 

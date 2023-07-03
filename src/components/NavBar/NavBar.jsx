@@ -11,7 +11,7 @@ const NavBar = () => {
             <div>
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
-                        <h2 className="text-2xl font-bold text-white">Pijus</h2>
+                        <h2 className="text-2xl font-bold text-sky-500">Pijus</h2>
                     </a>
                     <div className="md:hidden">
                         <button
@@ -56,28 +56,22 @@ const NavBar = () => {
                     className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                         }`}
                 >
-                    <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                        <li className="text-white hover:text-indigo-200">
-                            <a href="javascript:void(0)">Home</a>
+                    <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-bold">
+                        <li className="text-white hover:text-sky-600">
+                            <a href="#home">Home</a>
                         </li>
-                        <li className="text-white hover:text-indigo-200">
+                        <li className="text-white hover:text-sky-600">
                             <a href="#skills">Skills</a>
                         </li>
-                        <li className="text-white hover:text-indigo-200">
-                            <a href="javascript:void(0)">About US</a>
+                        <li className="text-white hover:text-sky-600">
+                            <a href="#aboutme">About Me</a>
                         </li>
-                        <li className="text-white hover:text-indigo-200">
-                            <a href="javascript:void(0)">Contact US</a>
+                        <li className="text-white hover:text-sky-600">
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
 
                     <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                        <a
-                            href="javascript:void(0)"
-                            className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
-                        >
-                            Sign in
-                        </a>
                         <a
                             href="javascript:void(0)"
                             className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
@@ -91,7 +85,7 @@ const NavBar = () => {
                
                 <a
                     href="javascript:void(0)"
-                    className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                    className=" text-sky-500  btn btn-outline outline-sky-400 rounded-md shadow hover:bg-sky-600"
                 >
                     Hire Me
                 </a>
