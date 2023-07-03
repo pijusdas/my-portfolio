@@ -75,19 +75,19 @@ const NavBar = () => {
                     </ul>
 
                     <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                        <a
-                            href="javascript:void(0)"
-                            className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                        >
-                            Sign up
-                        </a>
+                    <a
+                    href="#contact"
+                    className=" text-sky-500  btn btn-outline outline-sky-400 rounded-md shadow hover:bg-sky-600"
+                >
+                    Hire Me
+                </a>
                     </div>
                 </div>
             </div>
             <div className="hidden space-x-2 md:inline-block">
                
                 <a
-                    href="javascript:void(0)"
+                    href="#contact"
                     className=" text-sky-500  btn btn-outline outline-sky-400 rounded-md shadow hover:bg-sky-600"
                 >
                     Hire Me
