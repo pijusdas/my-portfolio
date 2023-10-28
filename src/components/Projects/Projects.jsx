@@ -1,6 +1,6 @@
-import project1 from '../../assets/projects/Screenshot (218).png'
-import project2 from '../../assets/projects/Screenshot (219).png'
-import project3 from '../../assets/projects/Screenshot (47).png'
+import project1 from '../../assets/images/Screenshot (218).png'
+import project2 from '../../assets/images/Screenshot (219).png'
+import project3 from '../../assets/images/toytronics-clients.web.app_(Galaxy Fold).png'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
